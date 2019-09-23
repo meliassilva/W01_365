@@ -24,7 +24,7 @@ namespace W01_FirstV1
 
             //4
             var currentDate = DateTime.Now;
-            Console.WriteLine($"Today is {currentDate.ToString("d")}");
+            Console.WriteLine($"Today is {currentDate.ToShortDateString()}");
 
             //5.
             var christmasDay = new DateTime(currentDate.Year, 12, 25);
